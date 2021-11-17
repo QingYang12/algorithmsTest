@@ -10,6 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 class Test7_ProduceConsume_Aomic {
     static volatile AtomicInteger s=new AtomicInteger(0);
+    // AtomicReference<List> atomicStudent = new AtomicReference<List>();  Atomic对象例子
     public static void main(String[] args) {
 
         new Thread(()->{

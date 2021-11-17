@@ -10,11 +10,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Future;
 import java.util.concurrent.ThreadPoolExecutor;
-
+/**
+ * 线程池   有返回值
+ */
 public class ThreadPoolTest2 {
-    /**
-     * 线程池
-     */
+
     //@Autowired
     //private ThreadPoolTaskExecutor taskExecutor;
     @Test

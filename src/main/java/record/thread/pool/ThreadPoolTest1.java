@@ -5,8 +5,8 @@ import record.z_proTest.thread.MyTask;
 import java.util.Date;
 import java.util.concurrent.*;
 
-/** 线程池 与 CountDownLatch 使用例子    无返回值
- *
+/** 线程池    无返回值
+ * CountDownLatch 使用例子
  */
 public class ThreadPoolTest1 {
     public static void main(String[] args) {

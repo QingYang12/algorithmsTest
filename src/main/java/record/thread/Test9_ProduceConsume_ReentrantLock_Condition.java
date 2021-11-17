@@ -1,6 +1,10 @@
 package record.thread;
 
+
+
+import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -10,6 +14,7 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class Test9_ProduceConsume_ReentrantLock_Condition {
     public  static  AtomicInteger s=new AtomicInteger(0);
+    // AtomicReference<List> atomicStudent = new AtomicReference<List>();  Atomic对象例子
     public static void main(String[] args) {
 
         ReentrantLock lock=new ReentrantLock();
